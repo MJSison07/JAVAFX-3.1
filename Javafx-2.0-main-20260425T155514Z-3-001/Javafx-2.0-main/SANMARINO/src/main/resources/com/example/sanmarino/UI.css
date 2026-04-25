@@ -1,0 +1,91 @@
+/* Container & Backgrounds */
+#topGridPane {
+    -fx-background-color: #7188f4;
+    -fx-border-radius: 5px;
+
+}
+
+#centerAnchor {
+    -fx-background-image: url("BRGY.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-attachment: fixed;
+    -fx-background-position: center;
+    -fx-background-size: cover;
+
+}
+
+#TPAnchorPane{
+    -fx-background-color: white;
+    -fx-background-radius:20;
+}
+
+.text-button {
+    -fx-font-size: 100;
+    -fx-text-fill: black;
+    -fx-cursor: hand;
+}
+
+.text-button:hover {
+    -fx-text-fill: #3498db;
+    -fx-underline: true;
+}
+
+/* Announcement Components */
+.announcement-div {
+    -fx-background-color: rgba(255, 255, 255, 0.85); 
+    -fx-background-radius: 15px;
+    -fx-padding: 20px;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.3), 15, 0, 0, 5);
+    -fx-border-color: rgba(255, 255, 255, 0.5);
+    -fx-border-width: 1px;
+}
+
+.announcement-card {
+    -fx-font-size: 16px;
+    -fx-padding: 20px;
+    -fx-background-radius: 5px;
+    -fx-border-width: 0 0 0 5px; /* Left accent border */
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.1), 5, 0, 0, 2);
+}
+
+/* Alert Variants */
+.meeting-alert {
+    -fx-background-color: #fff3cd;
+    -fx-border-color: #ffeeba;
+    -fx-text-fill: #856404;
+}
+
+.event-alert {
+    -fx-background-color: #d1ecf1;
+    -fx-border-color: #bee5eb;
+    -fx-text-fill: #0c5460;
+}
+
+/* Input & Buttons */
+#announcementInput {
+    -fx-font-size: 14px;
+    -fx-background-radius: 5px;
+}
+
+#postButton {
+    -fx-background-color: #1596ff;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-background-radius: 5px;
+}
+
+#postButton:hover {
+    -fx-background-color: #4da9ff;
+}
+
+/* Sidebar Specifics */
+.sidebar-announcement {
+    -fx-background-color: rgba(255, 255, 255, 0.7);
+    -fx-border-color: rgba(0, 0, 0, 0.1);
+    -fx-border-width: 0 0 0 1px;
+    -fx-padding: 20px;
+}
+
+.sidebar-announcement .announcement-text {
+    -fx-font-size: 12px; 
+}
