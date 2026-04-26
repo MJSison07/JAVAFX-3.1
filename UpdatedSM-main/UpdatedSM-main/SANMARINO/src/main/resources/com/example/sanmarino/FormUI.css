@@ -1,0 +1,18 @@
+#formAddButton{
+    -fx-background-color: #1596ff;
+
+}
+
+#formAddButton:hover{
+    -fx-background-color: #4da9ff;
+}
+
+#CenterGrid{
+    -fx-background-image: url("LOGO.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-attachment: fixed;
+    -fx-background-position: center;
+    -fx-background-size: cover;
+
+    
+}
